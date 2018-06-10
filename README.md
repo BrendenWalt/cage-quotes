@@ -1,0 +1,1 @@
+A simple random quote generator created using React and Create React App

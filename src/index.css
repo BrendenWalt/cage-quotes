@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  /* padding-top: 70vh; */
+}
+
+/* BUTTON STYLES */
+.btn-img {
+  display: block;
+  width: 85px;
+}
+.generate-button {
+  margin: 25px 0 10px;
+  text-align: center;
+}
+
+.generate-button button {
+  background: #68d341;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 6px #54a935;
+  display: block;
+  font-family: 'Encode Sans Expanded', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 4px 70px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 auto;
+  outline: none;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.generate-button button:hover {
+  box-shadow: 0 4px #54a935;
+  top: 2px;
+}
+
+.generate-button button:active {
+  box-shadow: 0 0 #54a935;
+  top: 6px;
+}
+@media only screen and (max-width: 480px) {
+  .btn-img {
+    width: 91px;
+  }
+  .generate-button {
+    margin-bottom: 30px;
+  }
+  .generate-button button {
+    padding: 9px 25%;
+  }
+}
+
+/* Quote Box Styles */
+.generator-wrapper {
+  background-color:rgba(255,255,255,0.5);
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 40px 5% 20px;
+  width: 50%;
+}
+@media only screen and (max-width: 480px) {
+  .generator-wrapper {
+    padding-bottom: 40px;
+    width: 90%;
+  }
+}
+
+/* TEXT STYLES */
+.quote-source {
+  text-align: right;
+  color: #2d2d2d;
+  font-size: 15px;
+  font-style: italic;
+  font-family: 'Encode Sans Expanded', Arial, sans-serif;
+  font-weight: 300;
+}
+.quote-text {
+  color: #2d2d22;
+  font-family: 'Encode Sans Expanded', Arial, sans-serif;
+  font-size: 37px;
+  margin-bottom: 10px;
+  text-align:center;
+}
+.title {
+  font-family:'Bangers', 'Times', serif;
+  letter-spacing: 0.05em;
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 57px;
+}
+@media only screen and (max-width: 480px) {
+  .quote-text {
+    font-size: 25px;
+  }
+  .title {
+    font-size: 39px;
+  }
+}
+
+/* Twitter Button */
+.twitter-btn {
+  background: #1da1f2;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px #1a8cd3;
+  display: inline-block;
+  font-family: 'Encode Sans Expanded', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 7px 15px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 0 0 auto;
+  outline: none;
+  position: relative;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.twitter-btn:hover {
+  box-shadow: 0 2px #1a8cd3;
+  top: 1px;
+}
+
+.twitter-btn:active {
+  box-shadow: 0 0 #1a8cd3;
+  top: 3px;
+}
+
+.twitter-wrap {
+  text-align: right;
+}
+@media only screen and (max-width: 480px) {
+  .twitter-btn {
+    padding: 3% 10%;
+  }
+}
