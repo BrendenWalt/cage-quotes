@@ -73,6 +73,11 @@ body {
   padding: 40px 5% 20px;
   width: 50%;
 }
+@media only screen and (max-width: 1000px) {
+ .generator-wrapper {
+   width: 75%;
+ }
+}
 @media only screen and (max-width: 480px) {
   .generator-wrapper {
     padding-bottom: 40px;
